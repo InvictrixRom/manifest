@@ -622,4 +622,10 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Opengapps repos for A/B devices -->
+  <include name="opengapps.xml" />
+
+  <!-- Invictrix repos -->
+  <include name="invictrix.xml" />
+
 </manifest>

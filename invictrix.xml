@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="invictrix" fetch="https://github.com/InvictrixROM/" revision="o-mr1" />
+
+<remove-project name="platform/build" />
+<remove-project name="platform/build/kati" />
+<remove-project name="platform/build/soong" />
+<remove-project name="platform/frameworks/base" />
+<remove-project name="platform/frameworks/support" />
+<remove-project name="platform/packages/apps/Settings" />
+
+<project path="manifest" name="manifest" remote="invictrix" />
+<project path="build/make" name="build_make" remote="invictrix" />
+<project path="build/kati" name="build_kati" remote="invictrix" />
+<project path="build/soong" name="build_soong" remote="invictrix" />
+<project path="frameworks/base" name="frameworks_base" remote="invictrix" />
+<project path="frameworks/support" name="frameworks_support" remote="invictrix" />
+<project path="packages/apps/Settings" name="packages/apps/Settings" remote="invictrix" />
+
+<project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
+<project path="vendor/extras" name="vendor_extras" remote="invictrix" />
+
+</manifest>
