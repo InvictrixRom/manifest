@@ -1,24 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="invictrix" fetch="https://github.com/InvictrixROM/" revision="o-mr1" />
+    <remote name="invictrix"
+            fetch="https://github.com/InvictrixROM/"
+            revision="o-mr1" />
+    
+    <remote name="invictrix-devices"
+            fetch="https://github.com/InvictrixROM-Devices/"
+            revision="o-mr1" />
 
-<remove-project name="platform/build" />
-<remove-project name="platform/build/kati" />
-<remove-project name="platform/build/soong" />
-<remove-project name="platform/frameworks/base" />
-<remove-project name="platform/frameworks/support" />
-<remove-project name="platform/packages/apps/Settings" />
+    <project path="bionic" name="bionic" remote="invictrix" />
+    <project path="build/make" name="build_make" remote="invictrix">
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/kati" name="build_kati" remote="invictrix" />
+    <project path="build/soong" name="build_soong" remote="invictrix">
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="invictrix" />
+    <project path="external/skia" name="external_skia" remote="invictrix" />
+    <project path="external/tinycompress" name="external_tinycompress" remote="invictrix" />
+    <project path="frameworks/av" name="frameworks_av" remote="invictrix" />
+    <project path="frameworks/base" name="frameworks_base" remote="invictrix" />
+    <project path="frameworks/native" name="frameworks_native" remote="invictrix" />
+    <project path="frameworks/support" name="frameworks_support" remote="invictrix" />
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="invictrix" />
+    <project path="hardware/interfaces" name="hardware_interfaces" remote="invictrix" />
+    <project path="manifest" name="manifest" remote="invictrix" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="invictrix" />
+    <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="invictrix" />
+    <project path="system/extras" name="system_extras" remote="invictrix" />
+    <project path="system/sepolicy" name="system_sepolicy" remote="invictrix" />
+    <project path="system/libhidl" name="system_libhidl" remote="invictrix" />
+    <project path="system/media" name="system_media" remote="invictrix" />
+    <project path="system/qcom" name="system_qcom" remote="invictrix" />
+    <project path="system/nfc" name="system_nfc" remote="invictrix" />
+    <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
+    <project path="vendor/extras" name="vendor_extras" remote="invictrix" />
 
-<project path="manifest" name="manifest" remote="invictrix" />
-<project path="build/make" name="build_make" remote="invictrix" />
-<project path="build/kati" name="build_kati" remote="invictrix" />
-<project path="build/soong" name="build_soong" remote="invictrix" />
-<project path="frameworks/base" name="frameworks_base" remote="invictrix" />
-<project path="frameworks/support" name="frameworks_support" remote="invictrix" />
-<project path="packages/apps/Settings" name="packages/apps/Settings" remote="invictrix" />
-
-<project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
-<project path="vendor/extras" name="vendor_extras" remote="invictrix" />
-
+    <!-- REMOVE -->
+    <project name="TheMuppets/proprietary_vendor_essential" path="vendor/essential" remote="github" revision="lineage-15.1"/>
+    <project name="device_essential_mata" path="device/essential/mata" remote="invictrix-devices" revision="o-mr1"/>
+    <project name="kernel_essential_msm8998" path="kernel/essential/msm8998" remote="invictrix-devices" revision="o-mr1"/>
+    
 </manifest>
