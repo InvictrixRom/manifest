@@ -36,6 +36,7 @@
     <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="invictrix" />
     <project path="hardware/interfaces" name="hardware_interfaces" remote="invictrix" />
     <project path="manifest" name="manifest" remote="invictrix" />
+    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="invictrix" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="invictrix" />
     <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="invictrix" />
     <project path="system/core" name="system_core" remote="invictrix" />
