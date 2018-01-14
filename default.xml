@@ -624,11 +624,11 @@
   <!-- Remove repos -->
   <include name="remove.xml" />
 
-  <!-- HAL repos -->
-  <include name="hals.xml" />
-
   <!-- Invictrix repos -->
   <include name="invictrix.xml" />
+
+  <!-- HAL repos -->
+  <include name="hals.xml" />
 
   <!-- Opengapps repos -->
   <include name="opengapps.xml" />
