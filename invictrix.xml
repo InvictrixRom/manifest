@@ -25,6 +25,7 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="invictrix" />
+    <project path="external/selinux" name="external_selinux" remote="invictrix" />
     <project path="external/skia" name="external_skia" remote="invictrix" />
     <project path="external/tinycompress" name="external_tinycompress" remote="invictrix" />
     <project path="frameworks/av" name="frameworks_av" remote="invictrix" />
