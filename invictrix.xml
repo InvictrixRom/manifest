@@ -50,9 +50,4 @@
     <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
     <project path="vendor/extras" name="vendor_extras" remote="invictrix" />
 
-    <!-- REMOVE -->
-    <project name="TheMuppets/proprietary_vendor_essential" path="vendor/essential" remote="github" revision="lineage-15.1"/>
-    <project name="device_essential_mata" path="device/essential/mata" remote="invictrix-devices" revision="o-mr1"/>
-    <project name="kernel_essential_msm8998" path="kernel/essential/msm8998" remote="invictrix-devices" revision="o-mr1"/>
-    
 </manifest>
