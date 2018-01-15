@@ -57,6 +57,6 @@
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" />
     <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="lineage" revision="lineage-15.0" />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="carbon" />
-    <project path="vendor/qcom/sdclang-4.0" name="hyperUnicorns/sdclang-4.0" revision="master" remote="github" />
+    <project path="vendor/qcom/sdclang-4.0/linux-x86" name="hyperUnicorns/sdclang-4.0" revision="master" remote="github" />
 
 </manifest>
