@@ -37,8 +37,10 @@
     <project path="hardware/interfaces" name="hardware_interfaces" remote="invictrix" />
     <project path="manifest" name="manifest" remote="invictrix" />
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="invictrix" />
+    <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="invictrix" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="invictrix" />
     <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="invictrix" />
+    <project path="packages/apps/Updater" name="packages_apps_Updater" remote="invictrix" />
     <project path="system/core" name="system_core" remote="invictrix" />
     <project path="system/extras" name="system_extras" remote="invictrix" />
     <project path="system/sepolicy" name="system_sepolicy" remote="invictrix" />
@@ -47,7 +49,7 @@
     <project path="system/qcom" name="system_qcom" remote="invictrix" />
     <project path="system/nfc" name="system_nfc" remote="invictrix" />
     <project path="system/vold" name="system_vold" remote="invictrix" />
+    <project path="system/update_engine" name="system_update_engine" remote="invictrix" />
     <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
-    <project path="vendor/extras" name="vendor_extras" remote="invictrix" />
 
 </manifest>
