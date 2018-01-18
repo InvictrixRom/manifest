@@ -630,7 +630,4 @@
   <!-- HAL repos -->
   <include name="hals.xml" />
 
-  <!-- Opengapps repos -->
-  <include name="opengapps.xml" />
-
 </manifest>
