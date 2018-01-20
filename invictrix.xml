@@ -10,6 +10,7 @@
             revision="o-mr1" />
 
     <project path="bionic" name="bionic" remote="invictrix" />
+    <project path="bootable/recovery" name="bootable_recovery" remote="invictrix" />
     <project path="build/make" name="build_make" remote="invictrix">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
