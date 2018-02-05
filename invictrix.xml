@@ -32,6 +32,7 @@
     <project path="external/xdelta3" name="external_xdelta3" remote="invictrix" />
     <project path="frameworks/av" name="frameworks_av" remote="invictrix" />
     <project path="frameworks/base" name="frameworks_base" remote="invictrix" />
+    <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="invictrix" />
     <project path="frameworks/native" name="frameworks_native" remote="invictrix" />
     <project path="frameworks/support" name="frameworks_support" remote="invictrix" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="invictrix" />
