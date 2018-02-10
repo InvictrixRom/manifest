@@ -54,6 +54,7 @@
     <project path="system/nfc" name="system_nfc" remote="invictrix" />
     <project path="system/vold" name="system_vold" remote="invictrix" />
     <project path="system/update_engine" name="system_update_engine" remote="invictrix" />
+    <project path="tools/apksig" name="tools_apksig" remote="invictrix" />
     <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
 
     <project path="vendor/pixelgapps" name="frap129/android_vendor_pixelgapps" remote="github" revision="cr-6.1" />
