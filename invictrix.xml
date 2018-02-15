@@ -57,6 +57,4 @@
     <project path="tools/apksig" name="tools_apksig" remote="invictrix" />
     <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
 
-    <project path="vendor/pixelgapps" name="frap129/android_vendor_pixelgapps" remote="github" revision="cr-6.1" />
-
 </manifest>
