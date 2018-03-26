@@ -66,7 +66,7 @@
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
