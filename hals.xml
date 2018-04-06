@@ -15,15 +15,15 @@
     <project path="hardware/interfaces" name="hardware_interfaces" remote="invictrix" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="invictrix" />
     <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="invictrix" />
-    <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1" remote="invictrix" />
-    <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8084" remote="invictrix" />
-    <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8916" remote="invictrix" />
-    <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8952" remote="invictrix" />
-    <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8960" remote="invictrix" />
-    <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8974" remote="invictrix" />
-    <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8994" remote="invictrix" />
-    <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8996" remote="invictrix" />
-    <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" remote="invictrix" />
+    <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1" remote="invictrix" />
+    <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1-8084" remote="invictrix" />
+    <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1-8916" remote="invictrix" />
+    <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1-8952" remote="invictrix" />
+    <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1-8960" remote="invictrix" />
+    <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1-8974" remote="invictrix" />
+    <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1-8994" remote="invictrix" />
+    <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1-8996" remote="invictrix" />
+    <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="o-mr1-8998" remote="invictrix" />
     <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="carbon" />
     <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
     <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.1-caf" remote="lineage" />
