@@ -41,6 +41,7 @@
   <project path="external/DUtils" name="external_DUtils" remote="invictrix" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="invictrix" />
   <project path="external/exfat" name="external_exfat" remote="invictrix" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="invictrix" />
   <project path="external/fuse" name="external_fuse" remote="invictrix" />
   <project path="external/htop" name="external_htop" remote="invictrix" />
   <project path="external/json-c" name="external_json-c" remote="invictrix" />
@@ -92,6 +93,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="invictrix" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="invictrix" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="invictrix" />
+  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" clone-depth="1" remote="invictrix" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="invictrix" />
   <project path="system/core" name="system_core" groups="pdk" remote="invictrix" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="invictrix" />
