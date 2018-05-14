@@ -13,15 +13,16 @@ Initialize Source (Assuming you have a valid build environment setup):
         cd ~/invictrix
         repo init -u https://github.com/InvictrixROM/manifest.git -b inv-8.1
 
-Sync Source
+Sync Source:
+
         repo sync -c -f -jx --force-sync --no-clone-bundle --no-tags (x being however many cpu jobs, you can also use -c to sync only the current branch specified by repo init)
 
 Build Source:
 
         . build/envsetup.sh
         lunch invictrix_device-userdebug
-        make clean
-        make bacon -j# (# being however many cpu jobs, for example i build with -j32)
+        mka clean
+        mka bacon
 
 Submitting Patches
 ------------------
