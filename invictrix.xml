@@ -97,7 +97,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="invictrix" />
   <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" clone-depth="1" remote="invictrix" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="invictrix" />
-  <project path="system/core" name="system_core" groups="pdk" remote="invictrix" />
+  <project path="system/core" name="system_core_old" groups="pdk" remote="invictrix" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="invictrix" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="invictrix" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="invictrix" />
