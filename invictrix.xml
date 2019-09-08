@@ -27,9 +27,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/invictrix/sepolicy" name="device_invictrix_sepolicy" remote="invictrix" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="invictrix" />
-  <project path="system/core" name="system_core" groups="pdk" remote="invictrix" />
   <project path="manifest" name="manifest" remote="invictrix" />
+  <project path="system/core" name="system_core" groups="pdk" remote="invictrix" />
   <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
 
 </manifest>
