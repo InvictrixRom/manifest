@@ -37,6 +37,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="invictrix" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="invictrix" />
   <project path="system/core" name="system_core" groups="pdk" remote="invictrix" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" />
   <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
 
 </manifest>
