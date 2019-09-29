@@ -33,6 +33,9 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="invictrix" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="invictrix" />
   <project path="manifest" name="manifest" remote="invictrix" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="invictrix" />
+  <project path="packages/services/Telecomm" name="packages_apps_Telecomm" remote="invictrix" />
+  <project path="packages/services/Telephony" name="packages_apps_Telephony" remote="invictrix" />
   <project path="system/core" name="system_core" groups="pdk" remote="invictrix" />
   <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
 
