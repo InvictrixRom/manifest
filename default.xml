@@ -771,5 +771,6 @@
 
   <include name="remove.xml" />
   <include name="invictrix.xml" />
+  <include name="extras.xml" />
 
 </manifest>
