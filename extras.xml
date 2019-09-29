@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="lineage"
+           revision="lineage-17.0"
+           fetch="https://github.com/LineageOS/" />
+  
+  <!-- LineageOS additions -->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
+  <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+  
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/audio" path="vendor_qcom_opensource_audio" remote="invictrix" />
   <project path="vendor/qcom/opensource/dataservices" path="vendor_qcom_opensource_dataservices" remote="invictrix" />
