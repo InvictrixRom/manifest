@@ -11,9 +11,9 @@
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
   
   <!-- Vendor -->
-  <project path="vendor/qcom/opensource/audio" path="vendor_qcom_opensource_audio" remote="invictrix" />
-  <project path="vendor/qcom/opensource/dataservices" path="vendor_qcom_opensource_dataservices" remote="invictrix" />
-  <project path="vendor/qcom/opensource/interfaces" path="vendor_qcom_opensource_interfaces" remote="invictrix" />
-  <project path="vendor/qcom/opensource/thermal-engine" path="vendor_qcom_opensource_thermal-engine" remote="invictrix" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="invictrix" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="invictrix" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="invictrix" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="invictrix" />
 
 </manifest>
