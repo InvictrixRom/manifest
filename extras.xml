@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/audio" path="vendor_qcom_opensource_audio" remote="invictrix" />
+  <project path="vendor/qcom/opensource/dataservices" path="vendor_qcom_opensource_dataservices" remote="invictrix" />
+  <project path="vendor/qcom/opensource/interfaces" path="vendor_qcom_opensource_interfaces" remote="invictrix" />
+  <project path="vendor/qcom/opensource/thermal-engine" path="vendor_qcom_opensource_thermal-engine" remote="invictrix" />
+
 </manifest>
