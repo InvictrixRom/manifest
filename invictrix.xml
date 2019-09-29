@@ -28,7 +28,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/invictrix/sepolicy" name="device_invictrix_sepolicy" remote="invictrix" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="invictrix" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="invictrix" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="invictrix" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="invictrix" />
   <project path="manifest" name="manifest" remote="invictrix" />
   <project path="system/core" name="system_core" groups="pdk" remote="invictrix" />
   <project path="vendor/invictrix" name="vendor_invictrix" remote="invictrix" />
